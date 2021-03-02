@@ -1,0 +1,166 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ .landingPage {
+     background-color:#F7F3F3;
+     margin-bottom: 100px;
+     background-position: center;
+
+ }
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    z-index: 5;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+ 
+ }
+ .navbar-logo img{
+    margin: 1rem;
+    width: 100px;
+ }
+ 
+ .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding:  20px;
+    justify-content:center;
+    text-align: center;
+ 
+ }
+ .navbar-links li {
+    list-style: none;
+ }
+ 
+ .navbar-links a {
+    color: #5AC0B5;
+    text-shadow: 1px 0px #3f8680 ;
+    padding:  10px 0px;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+ }
+ 
+ .navbar-links a:hover {
+    border-bottom:  #5AC0B5 solid 2px;
+ }
+ #active-page {
+    color: #E4B3AC ;
+    border-bottom:#E4B3AC solid 2px;
+ }
+ /* / search stle / */
+.form-search{
+    width : 50%;
+    top : 120;
+ }
+ form.form-search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    border : none;
+    width: 80%;
+    background: #E4B3AC;
+  }
+  
+  /*Style the submit button */
+  form.form-search button {
+     width: 20%;
+     padding: 10px;
+     background:#5AC0B5;
+     color: white;
+     font-size: 17px;
+     border: none;
+     border-left: none;
+     cursor: pointer;
+   }
+ 
+ /* Style header contact */
+.contact_text{
+     padding: 50px ;
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+ }
+.contact_text h1 {
+     color: #252C5A;
+
+}
+.contact_text p {
+    line-height: 20px;
+    color: #3f8680 ;
+    
+
+}
+/* form   */
+.main_contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form_contact {
+    padding: 80px 150px 80px 150px;
+    border: 2px solid #E4B3AC;
+    border-radius: 5px;
+  
+}
+
+.form_contact input ,textarea {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #E4B3AC ;
+    padding: 10px;
+}
+
+.form_contact textarea {
+    height: 120px;
+    border-radius: 20px ;
+    color: #3f8680;
+}
+.form_contact  input:focus,textarea:focus{
+    outline: none;
+}
+.form_contact input:hover , textarea:hover  {
+    box-shadow: 0 3px 6px  rgba(71, 207, 196, 0.2),
+    0 3px 6px  rgba(71, 207, 196, 0.2);
+}
+
+.form_contact input::placeholder , textarea::placeholder{
+    color: #3f8680 ;
+}
+.form_contact input[type=submit]{
+    color: #3f8680 ;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:#E4B3AC ;
+ 
+
+    
+}
+.form_contact input[type=submit]:hover{
+    color: #E4B3AC ;
+    background-color: #3f8680 ;
+    border-color:#3f8680 ;
+    transition: 0.3s ease-in-out;
+
+}
+
+/* 
+ border for images in the Gallery's sections #5AC0B5
+#E4B3AC
+#3f8680
+body color : #F7F3F3
+text color : #252C5A */
+
