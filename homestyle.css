@@ -31,6 +31,10 @@ a {
 
 
 }
+
+ body {
+   background-color: #F7F3F3;
+ }
 .pageHeader {
 
    Font-size: 17px;
