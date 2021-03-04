@@ -7,9 +7,11 @@
 
  }
  .landingPage {
-     background-color:#F7F3F3;
-     margin-bottom: 100px;
-     background-position: center;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-color:#F7F3F3;
+    margin-bottom: 100px;
+    background-attachment: fixed;
 
  }
 .navbar {
