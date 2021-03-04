@@ -79,18 +79,6 @@ form.form-search input[type=text] {
     transition: ease-out 2s ;
     position: relative;
  }
- .grid-container p {
-     padding: 0px  0px 10px 0px;
- }
-
- .image-name {
-     font-size : 1.5rem;
-     color: #252C5A;
- }
- .image-discription{
-     font-size: .9rem ;
-     color: #5AC0B5;
- }
 
  .grid-container img:hover {
      transform: translate(0px , -15px);
