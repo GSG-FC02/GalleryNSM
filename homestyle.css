@@ -11,6 +11,43 @@
  }
 
 
+
+.navbar-links a:hover {
+   border-bottom:  #5AC0B5 solid 2px;
+}
+#active-page {
+   color: #E4B3AC ;
+   border-bottom:#E4B3AC solid 2px;
+}
+
+/* search stle */
+.form-search{
+   width : 50%;
+   top : 120;
+}
+form.form-search input[type=text] {
+   padding: 10px;
+   font-size: 17px;
+   float: left;
+   border : none;
+   width: 80%;
+   background: #E4B3AC;
+ }
+ 
+ /* Style the submit button */
+ form.form-search button {
+   width: 20%;
+   padding: 10px;
+   background:#5AC0B5;
+   color: white;
+   font-size: 17px;
+   border: none;
+   border-left: none;
+   cursor: pointer;
+ }
+ 
+/* header style */
+
 /* latest images section */
 .latest-images-section {
    width : 100%;
@@ -62,8 +99,36 @@
     margin-right: 20px;
  }
 
+ 
+/* landing page content style */
+.landingpage-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin-top:2rem;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.landingpage-content h1 {
+   color: #5AC0B5;
+   font-size: 5rem;
+   margin-bottom: 1rem;
+}
+.landingpage-content p{
+   color: #b88f89;
+   font-size: 20px;
+}
+ 
 
- @media screen and (max-width: 450px) {
+
+
+
+/* Responsive codes */
+
+@media screen and (max-width: 450px) {
    .navbar {
       flex-wrap: wrap;
       margin: 0 10px;
@@ -114,3 +179,5 @@
    
 
  }
+
+
