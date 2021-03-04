@@ -56,27 +56,7 @@
      cursor: pointer;
  }
  
-/* landing page content style */
-.landingpage-content{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   margin-top:2rem;
-   width: 50%;
-   margin-left: auto;
-   margin-right: auto;
-}
-.landingpage-content h1 {
-   color: #5AC0B5;
-   font-size: 5rem;
-   margin-bottom: 1rem;
-}
-.landingpage-content p{
-   color: #b88f89;
-   font-size: 20px;
-}
+
  
  @media screen and (max-width: 800px) {
     .grid-container {
