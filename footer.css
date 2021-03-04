@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    background-color: #5ac0b66c;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.footer-main{
+    padding: 50px;
+    text-align: center;
+}
+.footer-main i {
+    border: 1px solid #E4B3AC;
+    background-color: #E4B3AC;
+    color: #3f8680;
+    padding: 10px;
+    size: 20px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+
+}
+.footer-main i:hover {
+    border-color: #3f8680;
+    background-color: #3f8680;
+    color: #E4B3AC;
+    transition: 0.3s ease-in-out;
+
+}
+.copy  {
+   color:#3f8680 ;
+   font-size: 18px;
+}
