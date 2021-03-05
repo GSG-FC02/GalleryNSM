@@ -1,4 +1,6 @@
 # GalleryNSM
+### Live Link [here](https://gsg-fc02.github.io/GalleryNSM/)
+
 # Welcome To Our First Project, "GalleryNSM"
 ## Introduction
 This is our first project as  members of **The Fundamentals Course** at Code Academy at GazaSkyGeeks organization and it will be a Gallery site. We will design it from scratch
