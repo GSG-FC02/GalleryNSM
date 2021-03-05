@@ -4,85 +4,71 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="Gallery website" content="Gallery website">
-        <title>Gallery</title>
-        <link rel="stylesheet" href="illustrationstyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
-      </head>
-  <body>
-    <header class="pageHeader">
-      <div class="landingPage">
-          <nav>
-              <div class="navbar">
-                  <div class="navbar-logo" >
-                      <a href="#"> <img src="./images/logo.png" alt="logo"></a>
-                  </div>
-                  <form class="form-search" action="#">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                  </form>
-                  <div class="navbar-links">
-                       <ul>
-                           <li><a  href="#">Images</a></li>
-
-                           <li><a id = "active-page" href="#">Illustration</a></li>
-
-                           <li><a  href="#">Contact</a></li>
-                       </ul>
-                  </div>
-              </div>
-              <div class = "landingpage-content">
-                <h1>Free Illustration<br> Gallery</h1>
-                <p>Gallery is a vibrant community of creatives, sharing copyright free images, videos and music All contents are released under the Gallery </p>
-              </div>
-          </nav>
-          
-      </div>
-    </header>
-    <section class = "illustration-section">
-        <h2>Newest Illustration</h2>
-        <div class = "flex-container">
-
-
-
-
-          <div class = "grid-container">
-            <div> 
-              <img src="./images/illustration2/1.jpg" alt="Astronaut Floating With Moon Icon Illustration. Spaceman Mascot Cartoon Character. Science Icon Concept Isolated">
-              <div class = "feedback-container">
-                <div class = "icon">
-                  <div><i class="far fa-heart"></i></div>
-                  <div>3K</div>
-                </div >
-                <div class = "icon"><div><i class="far fa-comment"></i></div>
-                <div>102k</div></div>
-              </div>
-             </div>
-          </div>
-
-
-
-
-          
-          <div class = "grid-container">
-            <div>
-              <img src="./images/illustration2/2.jpg" alt="two whales forming kong-fu logo">
+        <link href="images/logo.png" rel="icon" sizes="32x32" type="image/png">
         <title>Illustration Gallery</title>
         <link rel="stylesheet" href="homestyle.css">
+        <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
       </head>
   <body>
-
-    <section class="latest-images-section">
-        <h2 class="head-text">Latest Images</h2>
+      <!-- header -->
+      <header class="pageHeader-illustration">
+        <div class="landingPage">
+            <nav>
+                <div class="navbar">
+                    <div class="navbar-logo" >
+                        <a href="home.html"> <img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <form class="form-search" action="#">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <div class="navbar-links">
+                         <ul>
+                             <li><a href="home.html">Images</a></li>
+    
+                             <li><a id = "active-page"  href="illustration.html">Illustration</a></li>
+    
+                             <li><a  href="contact us.html">Contact</a></li>
+                         </ul>
+                    </div>
+                </div>
+                <div class = "landingpage-content">
+                  <h1>illustration</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit magni voluptatem odit tempora aperiam illo vero quod commodi possimus, fuga quia </p>
+                </div>
+            </nav>
+        </div>
+      </header>
+      <!-- latest illustration -->
+      <section class="latest-images-section">
+        <h2 class="head-text">Latest Illustrations</h2>
         <div class = "flex-container">
           <div class = "grid-container">
             <div> 
-              <img src="/images/illustration/1.jfif" alt="">
+              <img src="images/illustration2/1.jpg" alt="">
+              </div>
+           </div>
+          <div class = "grid-container">
+            <div>
+              <img src="images/illustration2/2.jpg" alt="">
+            </div>
+          </div>
+          <div class = "grid-container">
+            <div>
+              <img src="images/illustration2/4.jpg" alt=""> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- illustrations section -->
+    <section class="latest-images-section">
+        <h2 class="head-text">Illustrations</h2>
+        <div class = "flex-container">
+          <div class = "grid-container">
+            <div> 
+              <img src="images/illustration/1.jfif" alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="fas fa-heart"></i></div>
@@ -93,7 +79,7 @@
               </div>
              </div>
             <div>
-              <img src="/images/illustration/2.png"  alt="">
+              <img src="images/illustration/2.png"  alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -104,7 +90,7 @@
               </div>
             </div>
             <div>
-              <img src="/images/illustration/3.jfif"  alt="">
+              <img src="images/illustration/3.jfif"  alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -117,63 +103,18 @@
           </div>
           <div class = "grid-container">
             <div>
-              <img src="/images/illustration/3.jfif" alt="">
+              <img src="images/illustration/3.jfif" alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="fas fa-heart"></i></div>
                   <div>130K</div>
                 </div >
                 <div class = "icon"><div><i class="fas fa-comment"></i></div>
-                <div>2k</div></div>
-              </div>
-              
-              <div>
-                <img src="./images/illustration2/3.jpg" alt="a woman holding a palm tree like cigarate and smoke the ocean">
-                <div class = "feedback-container">
-                  <div class = "icon">
-                    <div><i class="fas fa-heart"></i></div>
-                    <div>130K</div>
-                  </div >
-                  <div class = "icon"><div><i class="far fa-comment"></i></div>
-                  <div>10k</div></div>
-                </div>      
-            </div>
-            
-          </div>
-        </div>
-              <div class = "grid-container">
-                <div>
-                  <img src="./images/illustration2/3.jpg" alt="a woman holding a palm tree like cigarate and smoke the ocean">
-                  <div class = "feedback-container">
-                    <div class = "icon">
-                      <div><i class="fas fa-heart"></i></div>
-                      <div>130K</div>
-                    </div >
-                    <div class = "icon"><div><i class="fas fa-comment"></i></div>
-                    <div>1k</div></div>
-                  </div>
-                </div>
-                <div>
-                  <img src="./images/illustration2/4.jpg" alt="Illustrations by Cecilia Castelli">
-                  <div class = "feedback-container">
-                    <div class = "icon">
-                      <div><i class="far fa-heart"></i></div>
-                      <div>130K</div>
-                    </div >
-                    <div class = "icon"><div><i class="fas fa-comment"></i></div>
-                    <div>10k</div></div>
-                  </div>
-                </div>
-              </div>
-        </div>
-      </section>
-  </body>
-</html>
                 <div>10k</div></div>
               </div>
             </div>
             <div>
-              <img src="/images/illustration/4.jfif" alt="">
+              <img src="images/illustration/4.jfif" alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -184,7 +125,7 @@
               </div>
             </div>
             <div>
-              <img src="/images/illustration/5.jfif"  alt="">
+              <img src="images/illustration/5.jfif"  alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -195,7 +136,7 @@
               </div>
             </div>
             <div>
-              <img src="/images/illustration/9.png"  alt="">
+              <img src="images/illustration/9.png"  alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="fas fa-heart"></i></div>
@@ -209,7 +150,7 @@
           </div>
           <div class = "grid-container">
             <div  >
-              <img src="/images/illustration/6.jfif" alt="">
+              <img src="images/illustration/6.jfif" alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -220,7 +161,7 @@
               </div>
             </div>
             <div>
-              <img src="/images/illustration/7.png" alt="">
+              <img src="images/illustration/7.png" alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -231,7 +172,7 @@
               </div>
             </div>
             <div>
-              <img src="/images/illustration/10.jfif"  alt="">
+              <img src="images/illustration/10.jfif"  alt="">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -244,5 +185,16 @@
           </div>
         </div>
       </section>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-main">
+            <a href=""><i class="fas fa-envelope"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+      
+            <p class="copy">© 2021 NSM Gallery</p>
+      
+        </div>
+      </footer>
   </body>
   </html>

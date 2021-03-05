@@ -1,3 +1,50 @@
+
+/* header style */
+ul {
+   list-style: none;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+ .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    z-index: 5;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+ 
+ }
+ .navbar-logo img{
+    margin: 1rem;
+    width: 100px;
+ }
+ 
+ .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    justify-content:center;
+    text-align: center;
+ 
+ }
+ .navbar-links li {
+    list-style: none;
+ }
+ 
+ .navbar-links a {
+    color: #5AC0B5;
+    text-shadow: 1px 0px #3f8680 ;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+ }
+ 
+ 
+
 .nature-section h2 {
     margin : 20px;
     color:  #b88f89;
@@ -27,11 +74,16 @@
     padding: 0 4px;
     width: 100%;
     justify-content: center;
+    margin-bottom: 80px;
+   
+
  }
  .grid-container {
     flex: 25%;
     max-width: 25%;
     padding: 0px 5px;
+    margin-top: 50px;
+
  }
  .grid-container img {
     margin-top: 8px;
@@ -148,6 +200,48 @@ form.form-search input[type=text] {
  }
  
 /* header style */
+/* header  */
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+.landingPage{
+   background-color: rgb(255, 255, 255);
+   background-image: url("images/background.jpg");
+   background-position: center;
+   background-attachment:fixed ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 600px;
+   z-index: 2;
+   padding-top: 0;
+   text-align: center;
+   align-items: center;
+   margin: 0 auto;
+
+
+}
+.pageHeader {
+
+   Font-size: 1rem;
+   display: block;
+   margin: 0 auto;
+
+}
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Roboto', sans-serif;  
+}
+
+body {
+  background-color: #F7F3F3;
+}
 
 /* latest images section */
 .latest-images-section {
@@ -335,3 +429,8 @@ form.form-search input[type=text] {
  }
 
 
+
+
+
+
+ 
