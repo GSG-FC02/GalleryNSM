@@ -6,6 +6,7 @@
     font-family: 'Roboto', sans-serif;
 
  }
+ /*landingPage style */
  .landingPage {
     background-image: url("images/background.jpg");
     background-position: center;
@@ -101,11 +102,12 @@
     
 
 }
-/* form   */
+/* form  style */
 .main_contact{
     display:flex;
     flex-direction: column;
     align-items: center;
+   
 
 }
 .form_contact {
@@ -159,10 +161,74 @@
 
 }
 
-/* 
- border for images in the Gallery's sections #5AC0B5
-#E4B3AC
-#3f8680
-body color : #F7F3F3
-text color : #252C5A */
 
+/* responsive */
+@media screen and (max-width: 450px) {
+    .navbar {
+       flex-wrap: wrap;
+       margin: 0 10px;
+       flex-direction: column;
+       justify-content:center ;
+    }
+ 
+    .form-search{
+       width : 100%;
+       top : 120;
+    }
+    .contact_text h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+     }
+     .contact_text p{
+        font-size: .9em;
+     }
+     .pageHeader .landingPage {
+      height: 600px;
+      width: 590px;
+      }
+
+ }
+ 
+  @media screen and (max-width: 800px) {
+    .navbar {
+       flex-wrap: nowrap;
+    
+    }
+
+
+ 
+ 
+ 
+  }
+  @media screen and (max-width: 600px) {
+    .head_text {
+       margin-left: 5vw;
+    
+    }
+    
+    
+ 
+  }
+
+
+  @media screen and (max-width: 425px) {
+    .form_contact {
+        padding: 30px 50px 30px 50px;
+        margin-left: 160px;
+    }
+    
+    .footer {
+        width: 590px;
+    }
+ 
+  }
+  
+  @media screen and (max-width: 375px) {
+    .form_contact {
+        padding: 30px 50px 30px 50px;
+        margin-left: 215px;
+    }
+    
+    
+ 
+  }

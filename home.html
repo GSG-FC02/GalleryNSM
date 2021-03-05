@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link href="images/logo.png" rel="icon" sizes="32x32" type="image/png">
     <link rel="Stylesheet" href="homestyle.css">
+    <link rel="Stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
@@ -16,13 +18,88 @@
       crossorigin="anonymous"
     />
 </head>
+
 <body>
+
+  <header class="pageHeader">
+    <div class="landingPage">
+        <nav>
+            <div class="navbar">
+                <div class="navbar-logo" >
+                    <a href="#"> <img src="images/logo.png" alt="logo"></a>
+                </div>
+                <form class="form-search" action="#">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <div class="navbar-links">
+                     <ul>
+                         <li><a id = "active-page" href="home.html">Images</a></li>
+
+                         <li><a href="illustration.html">Illustration</a></li>
+
+                         <li><a  href="contact us.html">Contact</a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class = "landingpage-content">
+              <h1>Welocme To Our<br> Gallery</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit magni voluptatem odit tempora aperiam illo vero quod commodi possimus, fuga quia </p>
+            </div>
+        </nav>
+    </div>
+  </header>
+ <!-- Latest images section -->
+ <section class = "latest-images-section">
+  <h2>Latest Images</h2>
+  <div class = "flex-container">
+    <div class = "grid-container">
+      <div> <img src="images/latestImages/1.jpg" alt="first"> </div>
+      <div>
+        <p><span class = "image-name">Name of the image</span></p>
+        <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
+      </div>
+      <div><img src="images/latestImages/2.jpg" alt="secound"></div>
+      <div>
+        <p><span class = "image-name">Name of the image</span></p>
+        <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit.</span></p>
+      </div>
+    </div>
+    <div class = "grid-container">
+      <div><img src="images/latestImages/3.jpg" alt="third"></div>
+      <div>
+        <p><span class = "image-name">Name of the image</span></p>
+        <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
+      </div>
+      <div><img src="images/latestImages/4.jpg" alt="forth"></div>
+      <div>
+        <p><span class = "image-name">Name of the image</span></p>
+        <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
+      </div>
+    </div>
+    <div class = "grid-container">
+      <div  ><img src="images/latestImages/5.jpg" alt="fifth"></div>
+      <div>
+        <p><span class = "image-name">Name of the image</span></p>
+        <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
+      </div>
+      <div><img src="images/latestImages/6.jpg" alt="sixth"></div>
+      <div>
+        <p><span class = "image-name">Name of the image</span></p>
+        <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
     <section class = "nature-section">
         <h2>Nature Images</h2>
         <div class = "flex-container">
           <div class = "grid-container">
             <div> 
-              <img src="./images/nature/1.jpg" alt="a woman is sitting on front of a lake">
+              <img src="images/nature/1.jpg" alt="a woman is sitting on front of a lake">
               <div class = "feedback-container">
                 <div class = "icon">
                   <div><i class="far fa-heart"></i></div>
@@ -57,6 +134,7 @@
             </div>
           </div>
         </div>
+        
               <div class = "grid-container">
                 <div>
                   <img src="./images/nature/3.jpg" alt="Monutains around a lake">
@@ -69,8 +147,9 @@
                     <div>1k</div></div>
                   </div>
                 </div>
+                
                 <div>
-                  <img src="./images/nature/B42.jpg" alt="small hills">
+                  <img src="./images/nature/4.jpg" alt="small hills">
                   <div class = "feedback-container">
                     <div class = "icon">
                       <div><i class="far fa-heart"></i></div>
@@ -81,6 +160,7 @@
                   </div>
                 </div>
               </div>
+              
         </div>
       </section>
 
@@ -150,69 +230,16 @@
           </div>
         </div>
       </section>
+      <footer class="footer">
+        <div class="footer-main">
+            <a href=""><i class="fas fa-envelope"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+                   
+            <p class="copy">© 2021 NSM Gallery</p>
     
-    
-    
-    
+        </div>
+    </footer>
 </body>
 </html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="Gallery website" content="Gallery website">
-        <title>Gallery</title>
-        <link rel="stylesheet" href="homestyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
-      </head>
-  <body>
-    <!-- Latest images section -->
-    <section class = "latest-images-section">
-      <h2>Latest Images</h2>
-      <div class = "flex-container">
-        <div class = "grid-container">
-          <div> <img src="/images/latestImages/1.jpg" alt="first"> </div>
-          <div>
-            <p><span class = "image-name">Name of the image</span></p>
-            <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
-          </div>
-          <div><img src="/images/latestImages/2.jpg" alt="secound"></div>
-          <div>
-            <p><span class = "image-name">Name of the image</span></p>
-            <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit.</span></p>
-          </div>
-        </div>
-        <div class = "grid-container">
-          <div><img src="/images/latestImages/3.jpg" alt="third"></div>
-          <div>
-            <p><span class = "image-name">Name of the image</span></p>
-            <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
-          </div>
-          <div><img src="/images/latestImages/4.jpg" alt="forth"></div>
-          <div>
-            <p><span class = "image-name">Name of the image</span></p>
-            <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
-          </div>
-        </div>
-        <div class = "grid-container">
-          <div  ><img src="/images/latestImages/5.jpg" alt="fifth"></div>
-          <div>
-            <p><span class = "image-name">Name of the image</span></p>
-            <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
-          </div>
-          <div><img src="/images/latestImages/6.jpg" alt="sixth"></div>
-          <div>
-            <p><span class = "image-name">Name of the image</span></p>
-            <p><span class = "image-discription">Lorem ipsum dolor sit amet consec tetur adipisicing elit. </span></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-</body>
-</html>
