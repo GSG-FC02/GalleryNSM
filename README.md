@@ -7,8 +7,6 @@ This is our first project as  members of **The Fundamentals Course** at Code Aca
 
 
 
-
-
 ---
 
 ## Team Members:
